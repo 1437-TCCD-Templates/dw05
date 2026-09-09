@@ -12,6 +12,6 @@ std::string retrieve_name() {
     return name;
 }
 
-void greeting(std::string name) {
+void greeting(const std::string name) {
     std::cout << "Welcome, " << name << std::endl;
 }
